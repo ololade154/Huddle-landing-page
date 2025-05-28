@@ -21,6 +21,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* mobile view */
 @media screen and (min-width: 100px) and (max-width: 650px) {
   .navigation-bar {
@@ -64,6 +65,7 @@
     justify-content: center;
     text-align: center;
     gap: 28px;
+    width: 100%;
   }
   .hero-image img {
     height: 220px;
@@ -221,16 +223,13 @@
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 38px;
+    width: 100%;
   }
   .hero-image img {
     height: 450px;
-    flex: 1 1 45%;
   }
-  .hero-content {
-    flex: 1 1 45%;
-  }
+
   .hero-content h1 {
     font-family: poppins;
     font-weight: 600;
@@ -277,7 +276,6 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
   .flow-illustration {
     flex-direction: row-reverse;
